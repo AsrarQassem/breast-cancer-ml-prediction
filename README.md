@@ -2,8 +2,7 @@
 
 ---
 
-## 📌 <img width="877" height="335" alt="Screenshot 2026-04-16 at 4 40 05 PM" src="https://github.com/user-attachments/assets/95be1ebe-02d8-488e-b811-0d0b3e6417cb" />
-Description
+## Description
 
 This project presents a complete machine learning pipeline for **breast cancer classification**, aiming to support early detection and improve diagnostic accuracy. The system analyzes medical features extracted from tumor data to classify cases as **benign or malignant**.
 
