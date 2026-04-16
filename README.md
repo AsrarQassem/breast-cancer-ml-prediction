@@ -1,8 +1,9 @@
-# 🧠 Breast Cancer Prediction using Machine Learning
+# 🦠 Breast Cancer Prediction using Machine Learning
 
 ---
 
-## 📌 Description
+## 📌 <img width="877" height="335" alt="Screenshot 2026-04-16 at 4 40 05 PM" src="https://github.com/user-attachments/assets/95be1ebe-02d8-488e-b811-0d0b3e6417cb" />
+Description
 
 This project presents a complete machine learning pipeline for **breast cancer classification**, aiming to support early detection and improve diagnostic accuracy. The system analyzes medical features extracted from tumor data to classify cases as **benign or malignant**.
 
@@ -111,21 +112,23 @@ A simple web application was developed using Flask to demonstrate real-world usa
 * Returns prediction results (Benign / Malignant)
 
 ---
+## 📈 Results
 
-## ⚠️ Limitations
+The optimized SVM model achieved:
 
-* Dataset is relatively small
-* Not validated on real-world clinical data
-* Results may not generalize to all populations
-* Not intended for actual medical use without further validation
+- **Accuracy:** ~99%  
+- **Precision:** ~96%  
+- **Recall:** ~96%  
+- **F1 Score:** ~96%  
 
----
+### Confusion Matrix
 
-## 🚀 Future Work
+<img width="786" height="341" alt="Screenshot 2026-04-16 at 4 42 51 PM" src="https://github.com/user-attachments/assets/cd9ad3f4-e8e7-4897-861a-8fbcb5010938" />
 
-* Use larger and more diverse datasets
-* Apply deep learning techniques
-* Add model explainability (SHAP, LIME)
-* Deploy as a full web or cloud-based application
+
+### Insights:
+- Zero false negatives ✅  
+- Only 1 false positive  
+- High reliability for medical diagnosis  
 
 
